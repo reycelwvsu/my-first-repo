@@ -8,10 +8,15 @@ def greet(name):
 
 greet("World")
 
-a = 2
+a = 8
 b = 3
 def add(a, b):
     return(a+b)
+def subtract(a, b):
+    return a - b
 
-result = add(a, b)
-print(result)
+addResult = add(a, b)
+subtractResult = subtract(a, b)
+print(addResult)
+print(subtractResult)
+
